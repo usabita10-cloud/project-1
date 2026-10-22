@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int x=3;
+    int x=2;
     switch (x)
+    {
     case 1:
     printf("hello");
     break;
@@ -14,5 +15,7 @@ int main()
     break;
     default:
     printf("none");
+    }
     return 0;
+    
 }
